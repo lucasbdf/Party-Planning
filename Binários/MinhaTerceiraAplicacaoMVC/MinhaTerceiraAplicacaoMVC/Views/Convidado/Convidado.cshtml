@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Convidado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<MinhaTerceiraAplicacaoMVC.Models.ConvidadoModel>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="..\..\Content\Css\festa.frontend.views.convidado.index.css" />
+    
+</head>
+<body>
+        
+    <div class="container">
+        
+        <div class="areaOpcao">
+            <div class="cabecalhoAreaOpcao">
+                
+                <div class="voltar"><a href="..\home\home">@Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/back.svg")))</a></div>
+                Convidado
+                <div class="adicionar"><a href="..\convidado\Edit">@Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/add.svg")))</a></div>
+            </div>
+            <div class="linhaCabecalho"></div>
+            
+            <div class="areaTabela">
+                <div class="containerTabela">
+                        <table name="grid">
+                                <thead>
+                                  <tr>
+                                    <th>Nome</th>
+                                    <th>CPF</th>
+                                    <th>Data Nasicmento</th>
+                                    <th>Id Festa</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                                <tfoot>
+                                  <tr>
+                                    <th colspan="2">Total: <span>0</span></th>
+                                  </tr>
+                                </tfoot>
+                              </table>
+            </div>
+            </div>
+
+            <div class="TotalRes">
+                <div class="textoRes">
+                TOTAL de X registro(s)</div>
+            </div>
+    </div>
+
+</body>
+
+</html>

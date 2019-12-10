@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+@model MinhaTerceiraAplicacaoMVC.Models.LoginModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gestão de Festas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href= "@Url.Content("~/Content/Css/festa.frontend.views.login.index.css")" />
+    <link rel="shortcut icon" type="image/ico" href= "@Url.Content("~/Content/Images/favicon.ico")"/>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="logo">
+                <img src="..\..\Content\images\logo.png"></div>
+            <div class="texto">
+                <p>
+                    Gestão de Festas</p>
+            </div>
+            <div class="arealinha">
+                <div class="linha">
+                </div>
+            </div>
+            @using (Html.BeginForm("Login", "Login"))
+            {
+      
+                <div id="campoLogin">
+                    @Html.LabelFor(x => x.email)
+                    @Html.TextBoxFor(x => x.email, new { type = "text", placeholder = "Login" })
+                    <small>@Html.ValidationMessageFor(x => x.email, "", new { @style="font-size: 14px"})</small>
+                </div>
+          
+                <div id="campoSenha">
+                    @Html.LabelFor(x => x.senha)
+                    @Html.Password("Senha", string.Empty, new { placeholder = "Senha" })
+                   <small>@Html.ValidationMessageFor(x => x.senha, "", new { @style="font-size: 14px"})</small>
+                </div>
+      
+      
+  
+                <div class="areabotao">
+                    <button type="submit">
+                    Enviar</button>
+                </div>
+    
+            }
+        </div>
+    </div>
+</body>
+</html>

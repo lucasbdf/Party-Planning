@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css{
+}
+
+        <div class="areaOpcao">
+            <div class="cabecalhoAreaOpcao">
+                Gestão de Festas
+                <div class="linhaCabecalho"></div>
+            </div>
+            
+            <div class="areaIcones">
+                <a href="..\festa\festa">
+                <div class="cone">
+              <img src="..\..\Content\images\festa.png">
+              <div class="linha"></div>
+                        <div class="textoFuncao">Festa</div>
+                </div>
+            </a>
+
+                    <div class="separar"></div>
+                     
+                    <a href="..\convidado\Convidado">
+                    <div class="convidado">
+                        <img src="..\..\Content\images\convidado.png">
+                    
+                        <div class="linha"></div>
+                        <div class="textoFuncao">Convidado
+
+                        </div>
+                          </div>
+                </div>
+            </a>
+
+
+        </div>
+@section carregarScript{
+    <script src="@Url.Content("~/Content/Js/festa.frontend.home.index.js")">
+
+        new festa.frontend.home.index(document.getElementsByClassName('header'));
+    
+    </script>
+}
+

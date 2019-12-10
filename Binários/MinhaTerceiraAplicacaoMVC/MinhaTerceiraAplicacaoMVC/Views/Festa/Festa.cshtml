@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Festa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css{ 
+ <link rel="stylesheet" type="text/css" href="../Content/Css/festa.frontend.views.festa.index.css" />
+}
+
+@model List<MinhaTerceiraAplicacaoMVC.Models.FestaModel>
+           
+<h2>Festa</h2>
+<div class="container">
+    <div class="areaOpcao">
+        <div class="cabecalhoAreaOpcao">
+            <div class="voltar">
+                <a href="..\Home\Home">@Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/back.svg")))
+                </a>
+            </div>
+            Festa
+            <div class="adicionar">
+                <a href="..\Festa\Edit">@Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/add.svg")))
+                </a>
+            </div>
+        </div>
+        <div class="linhaCabecalho">
+        </div>
+        <div class="areaTabela">
+            <div class="containerTabela">
+                <table name="grid">
+                    <thead>
+                        <tr>
+                            <th>
+                                Id
+                            </th>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Data
+                            </th>
+                            <th>
+                                Valor do Ingresso
+                            </th>
+                            <th>
+                                Total de Convidados
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var festa in Model) { 
+                        <tr>
+                        <th>@festa.Id</th>
+                        <th>@festa.Nome</th>
+                        <th>@festa.Data</th>
+                        <th>@festa.ValorIngresso</th>
+                        <th>@festa.TotalDeConvidados</th>
+                        
+                        </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">
+                                Total: <span>0</span>
+                            </th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <div class="TotalRes">
+            <div class="textoRes">
+                TOTAL de X registro(s)</div>
+        </div>
+    </div>
+</div>
+@section carregarScript{
+    <script src="@Url.Content("~/Content/Js/festa.frontend.views.festa.index.css")"></script>
+    }

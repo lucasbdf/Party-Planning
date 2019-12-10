@@ -1,0 +1,14 @@
+C:\Users\affonso.lima\Documents\Visual Studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\MinhaTerceiraAplicacaoMVC.dll
+C:\Users\affonso.lima\Documents\Visual Studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\MinhaTerceiraAplicacaoMVC.pdb
+C:\Users\affonso.lima\Documents\Visual Studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\EntityFramework.dll
+C:\Users\affonso.lima\Documents\Visual Studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\EntityFramework.xml
+C:\Users\affonso.lima\Documents\Visual Studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\obj\Debug\MinhaTerceiraAplicacaoMVC.dll
+C:\Users\affonso.lima\Documents\Visual Studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\obj\Debug\MinhaTerceiraAplicacaoMVC.pdb
+C:\Users\affonso.lima\documents\visual studio 2010\Projects\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\obj\Debug\MinhaTerceiraAplicacaoMVC.csprojResolveAssemblyReference.cache
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\MinhaTerceiraAplicacaoMVC.dll
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\MinhaTerceiraAplicacaoMVC.pdb
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\EntityFramework.dll
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\Newtonsoft.Json.dll
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\bin\EntityFramework.xml
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\obj\Debug\MinhaTerceiraAplicacaoMVC.dll
+C:\Users\affon\Desktop\Party Planning\Binários\MinhaTerceiraAplicacaoMVC\MinhaTerceiraAplicacaoMVC\obj\Debug\MinhaTerceiraAplicacaoMVC.pdb
